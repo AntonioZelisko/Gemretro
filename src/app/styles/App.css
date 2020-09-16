@@ -1,10 +1,9 @@
 body {
     margin-top : 120px;
-    background-image: url('../../assets/images//background1.png');
+    
     background-color: rgb(253, 253, 253);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: -80em;
+    
+    
     -ms-overflow-style: none;  /*  Hide scrollbar for IE and Edge */
     scrollbar-width: none;  /*  Hide scrollbar for Firefox */
 }

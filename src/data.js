@@ -1,319 +1,156 @@
-const fruits = [
-{ ref: "fruits_1",
-  category: "fruits",
-  name: "Citrons",
-  price: 0.99,
-  unit: "pièce",
-  image: "citron.png"
-},
-{
-  ref: "fruits_2",
-  category: "fruits",
-  name: "Citrons Vert",
-  price: 1.99,
-  unit: "pièce",
-  image: "lime.png"
-},
-{
-  ref: "fruits_3",
-  category: "fruits",
-  name: "Fraises",
-  price: 2.99,
-  unit: "kg",
-  image: "fraise.png"
-},
-{
-  ref: "fruits_4",
-  category: "fruits",
-  name: "Noix de coco",
-  price: 3.99,
-  unit: "pièce",
-  image: "coconut.png"
-},
-{
-  ref: "fruits_5",
-  category: "fruits",
-  name: "Clémentine",
-  price: 3.99,
-  unit: "kg",
-  image: "clementine.png"
-},
-{
-  ref: "fruits_6",
-  category: "fruits",
-  name: "Figues",
-  price: 5.99,
-  unit: "kg",
-  image: "figues.png"
-},
-{
-  ref: "fruits_7",
-  category: "fruits",
-  name: "Raisins",
-  price: 4.59,
-  unit: "kg",
-  image: "grapes.png"
-},
-{
-  ref: "fruits_8",
-  category: "fruits",
-  name: "Kiwi",
-  price: 4.99,
-  unit: "kg",
-  image: "kiwi.png"
-},
-{
-  ref: "fruits_9",
-  category: "fruits",
-  name: "Poires",
-  price: 3.49,
-  unit: "kg",
-  image: "poires.png"
-}
-];  
-
-const legumes = [
-{
-  ref: "legumes_1",
-  category: "légumes",
-  name: "Oignons",
-  price: 0.99,
-  unit: "kg",
-  image: "oignons.png"
-},
-{
-  ref: "legumes_2",
-  category: "légumes",
-  name: "Poivrons",
-  price: 2.99,
-  unit: "kg",
-  image: "poivrons.png"
-},
-{
-  ref: "legumes_3",
-  category: "légumes",
-  name: "Radis",
-  price: 3.99,
-  unit: "kg",
-  image: "radis.png"
-},
-{
-  ref: "legumes_4",
-  name: "Tomates",
-  category: "légumes",
-  price: 3.99,
-  unit: "kg",
-  image: "tomato.png"
-},
-{
-  ref: "legumes_5",
-  name: "Brocolis",
-  category: "légumes",
-  price: 3.99,
-  unit: "kg",
-  image: "brocoli.png"
-},
-{
-  ref: "legumes_6",
-  name: "Aubergines",
-  category: "légumes",
-  price: 3.99,
-  unit: "kg",
-  image: "aubergine.png"
-},
-{
-  ref: "legumes_7",
-  name: "Carottes",
-  category: "légumes",
-  price: 2.99,
-  unit: "kg",
-  image: "carot.png"
-},
-{
-  ref: "legumes_8",
-  name: "Choux",
-  category: "légumes",
-  price: 1.99,
-  unit: "kg",
-  image: "chou.png"
-}
-]; 
-
-const fresh = [
-{
-  ref: "fresh_1",
-  category: "frais",
-  name: "Milk",
-  price: 2.99,
-  unit: "pièce",
-  image: "milk.png"
-},
-{
-  ref: "fresh_2",
-  category: "frais",
-  name: "Beurre à tartiner",
-  price: 1.99,
-  unit: "pièce",
-  image: "beurre.png"
-},
-{
-  ref: "fresh_3",
-  category: "frais",
-  name: "Oeufs",
-  price: 3.99,
-  unit: "les douzes",
-  image: "eggs.png"
-},
-{
-  ref: "fresh_4",
-  category: "frais",
-  name: "Yaourts Nature",
-  price: 13.99,
-  unit: "pièce",
-  image: "yaourts_nature.png"
-},
-{
-  ref: "fresh_5",
-  category: "frais",
-  name: "Yaourts Fruits",
-  price: 10.19,
-  unit: "pièce",
-  image: "yaourts_fruits.png"
-}
-];  
-
-const epicerie = [
-{
-  ref: "epicerie_1",
-  category: "epicerie",
-  name: "Thon",
-  price: 2.99,
-  unit: "pièce",
-  image: "thon.png"
-},
-{
-  ref: "epicerie_2",
-  category: "epicerie",
-  name: "Sardines",
-  price: 1.99,
-  unit: "pièce",
-  image: "sardines.png"
-},
-{
-  ref: "epicerie_3",
-  category: "epicerie",
-  name: "Cookies",
-  price: 3.99,
-  unit: "pièce",
-  image: "cookies.png"
-},
-{
-  ref: "epicerie_4",
-  category: "epicerie",
-  name: "Biscottes",
-  price: 5.99,
-  unit: "pièce",
-  image: "biscottes.png"
-},
-{
-  ref: "epicerie_5",
-  category: "epicerie",
-  name: "Thé",
-  price: 3.59,
-  unit: "pièce",
-  image: "thé.png"
-},
-{
-  ref: "epicerie_6",
-  category: "epicerie",
-  name: "Soupes",
-  price: 3.59,
-  unit: "pièce",
-  image: "soupe.png"
-},
-{
-  ref: "epicerie_7",
-  category: "epicerie",
-  name: "Pâtes",
-  price: 3.59,
-  unit: "pièce",
-  image: "pates.png"
-}
+const game_boy = [
+  {
+    ref: "game_boy_1",
+    category: "game_boy",
+    name: "Super Mario Land",
+    price: 10.99,
+    unit: "euros",
+    image: "super_mario_land.jpg",
+  },
+  {
+    ref: "game_boy_2",
+    category: "game_boy",
+    name: "Kirby's Dream Land",
+    price: 9.99,
+    unit: "euros",
+    image: "kirbys_dream_land.jpg",
+  },
 ];
 
-const boissons = [
-{
-  ref: "boissons_1",
-  category: "boissons",
-  name: "Vin Rouge",
-  price: 12.99,
-  unit: "pièce",
-  image: "bordeaux.png"
-},
-{
-  ref: "boissons_2",
-  category: "boissons",
-  name: "Vin blanc",
-  price: 11.99,
-  unit: "pièce",
-  image: "white_wine.png"
-},
-{
-  ref: "boissons_3",
-  category: "boissons",
-  name: "Riesling",
-  price: 25.99,
-  unit: "pièce",
-  image: "riesling.png"
-},
-{
-  ref: "boissons_4",
-  category: "boissons",
-  name: "Coca ",
-  price: 2.49,
-  unit: "pièce",
-  image: "coke.png"
-},
-{
-  ref: "boissons_5",
-  category: "boissons",
-  name: "Sprite",
-  price: 1.49,
-  unit: "pièce",
-  image: "sprite.png"
-},
-{
-  ref: "boissons_6",
-  category: "boissons",
-  name: "Finley",
-  price: 1.49,
-  unit: "pièce",
-  image: "finley.png"
-},
-{
-  ref: "boissons_7",
-  category: "boissons",
-  name: "Nestea",
-  price: 1.19,
-  unit: "pièce",
-  image: "nestea.png"
-},
-{
-  ref: "boissons_8",
-  category: "boissons",
-  name: "Sprite",
-  price: 1.49,
-  unit: "pièce",
-  image: "sprite.png"
-},
-{
-  ref: "boissons_9",
-  category: "boissons",
-  name: "Sprite Zero",
-  price: 1.49,
-  unit: "pièce",
-  image: "sprite_zero.png"
-}
+const super_nintendo = [
+  {
+    ref: "super_nintendo_1",
+    category: "super_nintendo",
+    name: "Donkey Kong Country",
+    price: 10.99,
+    unit: "euros",
+    image: "donkey_kong_country.jpg",
+  },
+  {
+    ref: "super_nintendo_2",
+    category: "super_nintendo",
+    name: "Super Mario Kart",
+    price: 12.99,
+    unit: "euros",
+    image: "super_mario_kart.jpg",
+  },
 ];
 
-export const dataProducts = [fruits, legumes, fresh, epicerie, boissons]
+const nintendo_64 = [
+  {
+    ref: "nintendo_64_1",
+    category: "nintendo_64",
+    name: "Super Mario 64",
+    price: 12.99,
+    unit: "euros",
+    image: "super_mario_64.png",
+  },
+  {
+    ref: "nintendo_64_2",
+    category: "nintendo_64",
+    name: "Mario Kart 64",
+    price: 11.99,
+    unit: "euros",
+    image: "mario_kart_64.png",
+  },
+];
+const game_boy_color = [
+  {
+    ref: "game_boy_color_1",
+    category: "game_boy_color",
+    name: "DBZ Legendary Super Warriors",
+    price: 12.99,
+    unit: "euros",
+    image: "dbz_legendary_super_warriors.jpg",
+  },
+  {
+    ref: "game_boy_color_1",
+    category: "game_boy_color",
+    name: "Pokemon Version Crystal",
+    price: 12.99,
+    unit: "euros",
+    image: "pokemon_crystal.jpg",
+  },
+];
+const gamecube = [
+  {
+    ref: "gamecube_1",
+    category: "gamecube",
+    name: "Super Mario Sunshine",
+    price: 12.99,
+    unit: "euros",
+    image: "super_mario_sunshine.jpg",
+  },
+  {
+    ref: "gamecube_2",
+    category: "gamecube",
+    name: "Starfox Adventures",
+    price: 12.99,
+    unit: "euros",
+    image: "starfox_adventures.jpg",
+  },
+];
+const game_boy_advance = [
+  {
+    ref: "game_boy_advance_1",
+    category: "game_boy_advance",
+    name: "Pokemon Version Emeraude",
+    price: 12.99,
+    unit: "euros",
+    image: "pokemon_version_emeraude.jpg",
+  },
+  {
+    ref: "game_boy_advance_2",
+    category: "game_boy_advance",
+    name: "Mario Kart Super Circuit",
+    price: 12.99,
+    unit: "euros",
+    image: "mario_kart_super_circuit.jpg",
+  },
+];
+const wii = [
+  {
+    ref: "wii_1",
+    category: "wii",
+    name: "Super Mario Galaxy",
+    price: 12.99,
+    unit: "euros",
+    image: "super_mario_galaxy.jpg",
+  },
+  {
+    ref: "wii_2",
+    category: "game_boy_advance",
+    name: "Super Smash Bros Brawl",
+    price: 12.99,
+    unit: "euros",
+    image: "super_smash_bros_brawl.jpg",
+  },
+];
+const nintendo_ds = [
+  {
+    ref: "nintendo_ds_1",
+    category: "nintendo_ds",
+    name: "Mario Kart DS",
+    price: 12.99,
+    unit: "euros",
+    image: "mario_kart_ds.jpg",
+  },
+  {
+    ref: "nintendo_ds_2",
+    category: "nintendo_ds",
+    name: "Mario Party DS",
+    price: 12.99,
+    unit: "euros",
+    image: "mario_party_ds.jpg",
+  },
+];
+export const dataProducts = [
+  game_boy,
+  super_nintendo,
+  nintendo_64,
+  game_boy_color,
+  gamecube,
+  game_boy_advance,
+  wii,
+  nintendo_ds,
+];

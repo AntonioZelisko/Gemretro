@@ -6,7 +6,7 @@ const CardProduct = ({ product }) => {
         <div className="col-sm-4">
             <div className="card">
                 <img
-                    width="170"
+                    width="auto"
                     height="170"
                     src={ process.env.PUBLIC_URL + `/assets/${ product.category }/${ product.image }` }
                     alt={ product.name }
@@ -18,11 +18,11 @@ const CardProduct = ({ product }) => {
                     </div>
                     <div className="d-flex justify-content-center">
                         <button 
-                            className="btn btn-warning btn-sm"
+                            className="btn btn-primary btn-sm"
                             data-toggle="modal"
                             data-target={ `#${ product.ref }` }
                         >
-                            voir produit
+                            Voir Produit
                         </button>
                     </div>
                 </div>

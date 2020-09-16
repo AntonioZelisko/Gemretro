@@ -5,9 +5,9 @@ import { useSelector } from "react-redux";
 const Navbar = ({ filter, setFiltering }) => {
     const items = useSelector(state => state.items);
     return (
-        <nav className="navbar orange navbar-expand-lg navbar-light bg-light fixed-top">
-            <Link to="/" className="navbar-brand crimson">
-                 E-Redux
+        <nav className="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+            <Link to="/" className="navbar-brand ">
+                 GEMRETRO
             </Link>
             <button
                 className="navbar-toggler"
