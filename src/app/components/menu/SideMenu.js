@@ -13,7 +13,7 @@ const SideMenu = ({ changeCategory, category }) => {
     { name: "Nintendo DS", category: "nintendo_ds" },
   ];
   return (
-    <div className="col-sm-2 sidebar">
+    <div className="col-sm-1.6 sidebar  bg-light">
       <ul>
         {links.map((link, index) => (
           <li

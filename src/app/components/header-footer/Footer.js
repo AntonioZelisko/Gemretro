@@ -5,9 +5,9 @@ const Footer = () => {
         <footer>
             <div className="text-center">
                 <span className="text-muted">
-                    <a href='https://github.com/petermollet?tab=repositories'>@Peter Mollet</a> 
+                    <a href='https://github.com/AntonioZelisko?tab=repositories'>@Antonio Zelisko</a> 
                     - 2020 - 
-                    <a href='http://www.insy2s.com/'>INSY2S</a>
+                    <a href='http://www.insy2s.com/'>AFPA</a>
                 </span>
             </div>
         </footer>
