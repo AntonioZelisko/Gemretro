@@ -4,7 +4,7 @@ import CardProduct from './CardProduct';
 const ListCardProduct = ({ list }) => {
     
     return (
-        <div className="col-sm">
+        <div className="col-sm ">
             <div className={`row d-flex ${list ? '' : 'justify-content-center'}`}>
                 { 
                     list ?

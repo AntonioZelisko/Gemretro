@@ -127,8 +127,16 @@ const wii = [
     category: "wii",
     name: "Donkey Kong Country Returns",
     price: 19.99,
-    image: "donkey_kong_country_returns.jpg",
+    image: "donkey_kong_country_returns.jpg"
+  },
+  {
+    ref: "wii_4",
+    category: "wii",
+    name: "Dragon Ball Z Budokai Tenkaichi 3",
+    price: 14.99,
+    image: "dbz_bt_3.jpg"
   }
+
 ];
 const nintendo_ds = [
   {

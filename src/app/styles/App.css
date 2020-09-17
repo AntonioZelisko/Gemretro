@@ -214,6 +214,7 @@ footer {
 .red {
   border: 1px solid crimson;
 }
+
 @media screen and (max-width: 640px) {
   body {
       margin-top : 360px;
