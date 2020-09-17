@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Router } from 'react-router-dom';
 import { createBrowserHistory } from "history";
 import { useSelector, useDispatch } from 'react-redux';
-import Navbar from './components/header-footer/NavBar';
+import Header from './components/header-footer/Header';
 import { dataProducts } from '../data';
 import './styles/App.css';
 import Footer from './components/header-footer/Footer';
@@ -35,7 +35,7 @@ const App = () => {
             <UserProfileContextProvider>
                 <div id='page-container'>
                     <div id='content-wrap'>
-                        <Navbar 
+                        <Header 
                             filter={ filterResult } 
                             setFiltering={ setFiltering }
                         />

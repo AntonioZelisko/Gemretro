@@ -10,8 +10,6 @@ function getItemsFromStorage() {
     else return JSON.parse(localStore);
 }
 
-
-
 ///////////////////////
 //      ACTIONS      //
 ///////////////////////

@@ -2,11 +2,11 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { useSelector } from "react-redux";
 
-const Navbar = ({ filter, setFiltering }) => {
+const Header = ({ filter, setFiltering }) => {
     const items = useSelector(state => state.items);
     return (
-        <nav className="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-            <Link to="/" className="navbar-brand ">
+        <nav className="navbar navbar-expand-lg navbar-light bg-danger fixed-top">
+            <Link to="/" className="navbar-brand text-white">
                  GEMRETRO
             </Link>
             <button
@@ -49,4 +49,4 @@ const Navbar = ({ filter, setFiltering }) => {
     );
 };
 
-export default Navbar;
+export default Header;

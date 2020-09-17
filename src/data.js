@@ -14,6 +14,13 @@ const game_boy = [
     price: 3.99,
     image: "kirbys_dream_land.jpg",
     desc: "Guidez Kirby à travers de nombreux niveaux à défilement horizontal. Marchez, volez et aspirez vos ennemis pour traverser le Mont Dadidou et vaincre vos ennemis !"
+  },
+  {
+    ref: "game_boy_3",
+    category: "game_boy",
+    name: "Pokemon Version Jaune",
+    price: 35.99,
+    image: "pokemon_version_jaune.jpg"
   }
 ];
 
@@ -33,7 +40,13 @@ const super_nintendo = [
     price: 7.99,
     image: "super_mario_kart.jpg",
     desc: "Retrouvez les personnages du Royaume Champignon, tels que Mario et Bowser, mais aussi Donkey Kong Jr. pour son unique apparition dans ce jeu de karting. Faites chauffer la gomme sur la piste de circuits désormais incontournables, comme le Circuit Mario, le Château de Bowser, la Plage Koopa ou encore la très redoutée Route Arc-en-ciel !"
-  }
+  },
+  {
+    ref: "super_nintendo_3",
+    category: "super_nintendo",
+    name: "HeartBound",
+    price: 6.99,
+    image: "heartbound.jpg"}
 ];
 
 const nintendo_64 = [
@@ -52,6 +65,13 @@ const nintendo_64 = [
     price: 9.99,
     image: "mario_kart_64.jpg",
     desc: "Avec Mario Kart 64, vous courez en compagnie de nombreuses stars dont Mario, Bowser et Yoshi, sur quatre séries de quatre circuits de plus en plus difficiles. Les circuits de la Coupe Champignon sont caractérisés par de grandes courbes et des virages inclinés. C'est sur le Coupe Fleur que les choses commencent à se corser. Il vous faudra esquiver les camions qui déboulent sur Autoroute Toad et les rochers qui vous arrivent dessus des sommets embrumés de Montagne Choco ! Les circuits de la Coupe Étoile vont des pistes glacées de Sorbet-Land aux lacs de lave qui entourent le château de Bowser. Mais le véritable défi qui mettra vos talents de pilote à l'épreuve sera de terminer les quatre circuits de la Coupe Spéciale. Filez à travers les cavernes sombres et les collines boisées de Jungle DK, grimpez les pentes abruptes de Vallée Yoshi et foncez au-dessus du fantomatique Ponton Lugubre avant de vous attaquer à la course la plus longue du jeu : la Route arc-en-ciel et son circuit haut en couleur."
+  },
+  {
+    ref: "nintendo_64_3",
+    category: "nintendo_64",
+    name: "The Legend of Zelda Majora's Mask",
+    price: 9.99,
+    image: "zelda_majoras_mask.jpg",
   }
 ];
 const game_boy_color = [
@@ -63,11 +83,18 @@ const game_boy_color = [
     image: "dbz_legendary_super_warriors.jpg"
   },
   {
-    ref: "game_boy_color_1",
+    ref: "game_boy_color_2",
     category: "game_boy_color",
     name: "Pokemon Version Crystal",
     price: 9.99,
     image: "pokemon_crystal.jpg"
+  },
+  {
+    ref: "game_boy_color_3",
+    category: "game_boy_color",
+    name: "The Legend of Zelda Link's Awakening",
+    price: 9.99,
+    image: "zelda_links_awakening.jpg"
   }
 ];
 const gamecube = [
@@ -86,6 +113,13 @@ const gamecube = [
     price: 11.99,
     image: "star_fox_adventures.png",
     desc: "Vous devez incarner le rôle de Fox McCloud, dirigeant du Star Fox, libérer les habitants des griffes de Scales et rétablir la paix dans ce paradis primitif. Star Fox Adventures se déroule dans un vaste monde 3D étrange rempli d'énigmes complexes et d'une action intense. Apprenez les secrets d'une baguette mystique utilisée pour repousser vos ennemis et lancer tout un éventail de sorts."
+  },
+  {
+    ref: "gamecube_3",
+    category: "gamecube",
+    name: "Super Smash Bros Melee",
+    price: 11.99,
+    image: "ssb_melee.png"
   }
 ];
 const game_boy_advance = [
@@ -104,6 +138,13 @@ const game_boy_advance = [
     price: 7.99,
     image: "mario_kart_super_circuit.jpg",
     desc: "Retrouvez vos personnages préférés tel que Mario, Luigi, Yoshi, Wario et bien d'autres ; ainsi que les objets habituels comme les carapaces rouges, les peaux de bananes et les redoutables carapaces à épines !"
+  },
+  {
+    ref: "game_boy_advance_3",
+    category: "game_boy_advance",
+    name: "Super Mario World Super Mario Advance 2",
+    price: 7.99,
+    image: "super_mario_world_sma_2.jpg"
   }
 ];
 const wii = [
@@ -155,7 +196,69 @@ const nintendo_ds = [
     image: "mario_party_ds.png",
     desc: "Fidèle aux jeux précédents de la série, Mario Party DS propose aux joueurs des jeux de plateau originaux ainsi qu'une multitude de mini-jeux très amusants. Vous aurez ainsi à votre disposition cinq jeux de plateau entièrement nouveaux et 70 mini-jeux drôles, le tout agrémenté de magnifiques graphismes 3D."
   },
+  {
+    ref: "nintendo_ds_3",
+    category: "nintendo_ds",
+    name: "Pokemon Version Platine",
+    price: 9.99,
+    image: "pokemon_platine.png"
+  }
 ];
+const playstation = [
+  {
+    ref: "playstation_01",
+  category: "playstation",
+  name: "Final Fantasy VIII",
+  price: 9.99,
+  image: "final_fantasy_8.jpg"
+}, 
+{
+  ref: "playstation_02",
+  category: "playstation",
+  name: "Silent Hill",
+  price: 9.99,
+  image: "silent_hill.jpg"
+},
+{
+  ref: "playstation_03",
+  category: "playstation",
+  name: "Metal Gear Solid",
+  price: 9.99,
+  image: "metal_gear_solid.jpg"
+}
+];
+const playstation_2 = [
+  {
+    ref: "playstation_2_1",
+  category: "playstation_2",
+  name: "Grand Theft Auto Vice City",
+  price: 9.99,
+  image: "gta_vice_city.jpg"
+}, 
+{
+  ref: "playstation_2_2",
+  category: "playstation_2",
+  name: "Resident Evil 4",
+  price: 9.99,
+  image: "re_4.jpg"
+}, 
+{
+  ref: "playstation_2_3",
+  category: "playstation_2",
+  name: "SoulCalibur II",
+  price: 9.99,
+  image: "soulcalibur_2.jpg"
+}
+];
+const playstation_3 = [
+  {
+    ref: "playstation_3_1",
+  category: "playstation_3",
+  name: "The Last of Us",
+  price: 29.99,
+  image: "the_last_of_us.jpg"
+}
+]
 export const dataProducts = [
   game_boy,
   super_nintendo,
@@ -165,4 +268,7 @@ export const dataProducts = [
   game_boy_advance,
   wii,
   nintendo_ds,
+  playstation,
+  playstation_2,
+  playstation_3
 ];
