@@ -1,19 +1,14 @@
-import React from 'react';
-import ListCardProduct from '../products/ListCardProduct';
+import React from "react";
+import ListCardProduct from "../products/ListCardProduct";
 
-
-const Store = ({ category, dataProducts }) => {
-    
-    return (
-        <div className="col-sm">
-            <div className="row">
-                <ListCardProduct 
-                    category={ category } 
-                    list={ dataProducts }
-                />
-            </div>
-        </div>
-    );
+const Store = ({ category, nintendo, sony }) => {
+  return (
+    <div className="col-sm">
+      <div className="row">
+        <ListCardProduct category={category} nintendo={nintendo} sony={sony} />
+      </div>
+    </div>
+  );
 };
 
 export default Store;

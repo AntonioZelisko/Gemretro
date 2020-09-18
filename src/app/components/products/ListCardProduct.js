@@ -1,23 +1,29 @@
-import React from 'react';
-import CardProduct from './CardProduct';
+import React from "react";
+import CardProduct from "./CardProduct";
 
-const ListCardProduct = ({ list }) => {
-    
-    return (
-        <div className="col-sm ">
-            <div className={`row d-flex ${list ? '' : 'justify-content-center'}`}>
-                { 
-                    list ?
-                        list.map((product, index) => <CardProduct 
-                                                        key={index} 
-                                                        product={product} 
-                                                     /> )
-                    :
-                        <i className="text-danger">Page non trouvée</i>
-                }
-            </div>
-        </div>
-    );
+const ListCardProduct = ({ nintendo, sony }) => {
+  return (
+    <div className="col-sm ">
+      <div className={`row d-flex ${nintendo ? "" : "justify-content-center"}`}>
+        {nintendo ? (
+          nintendo.map((product, index) => (
+            <CardProduct key={index} product={product} />
+          ))
+        ) : (
+          <i className="text-danger"></i>
+        )}
+      </div>
+      <div className={`row d-flex ${sony ? "" : "justify-content-center"}`}>
+        {sony ? (
+          sony.map((product, index) => (
+            <CardProduct key={index} product={product} />
+          ))
+        ) : (
+          <i className="text-danger"></i>
+        )}
+      </div>
+    </div>
+  );
 };
 
-  export default ListCardProduct;
+export default ListCardProduct;

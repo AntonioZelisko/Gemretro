@@ -13,7 +13,7 @@ const Nintendo = ({ changeCategory, category }) => {
   ];
 
   return (
-    <div className="btn-group dropdown ">
+    <div className="btn-group dropdown">
       <button
         type="button"
         className="btn btn-secondary dropdown-toggle"
