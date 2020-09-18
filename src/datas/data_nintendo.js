@@ -30,7 +30,7 @@ const super_nintendo = [
     category: "super_nintendo",
     name: "Donkey Kong Country",
     price: 7.99,
-    image: "donkey_kong_country.png",
+    image: "donkey_kong_country.jpg",
     desc: "Aidez DK et Diddy à retrouver le stock de bananes qui leur a été volé. Traversez plus de 30 niveaux coriaces, chevauchez des amis animaux et survivez dans un chariot lancé à toute vitesse sur les rails d'une mine. Avec Donkey Kong Country, vous aurez la banane !"
   },
   {
@@ -38,7 +38,7 @@ const super_nintendo = [
     category: "super_nintendo",
     name: "Super Mario Kart",
     price: 7.99,
-    image: "super_mario_kart.jpg",
+    image: "super_mario_kart.png",
     desc: "Retrouvez les personnages du Royaume Champignon, tels que Mario et Bowser, mais aussi Donkey Kong Jr. pour son unique apparition dans ce jeu de karting. Faites chauffer la gomme sur la piste de circuits désormais incontournables, comme le Circuit Mario, le Château de Bowser, la Plage Koopa ou encore la très redoutée Route Arc-en-ciel !"
   },
   {
@@ -55,7 +55,7 @@ const nintendo_64 = [
     category: "nintendo_64",
     name: "Super Mario 64",
     price: 9.99,
-    image: "super_mario_64.jpg",
+    image: "super_mario_64.png",
     desc: "Invité par la princesse Peach dans son château, Mario se rend compte qu'elle a été enlevée par Bowser et ses sbires. Cependant, quelque chose est différent... cette fois l'aventure est en 3D. Découvrez les secrets du château de Peach et trouvez les 120 étoiles en amenant Mario dans une nouvelle dimension avec ce titre inoubliable de la Nintendo 64."
   },
   {
@@ -63,7 +63,7 @@ const nintendo_64 = [
     category: "nintendo_64",
     name: "Mario Kart 64",
     price: 9.99,
-    image: "mario_kart_64.jpg",
+    image: "mario_kart_64.png",
     desc: "Avec Mario Kart 64, vous courez en compagnie de nombreuses stars dont Mario, Bowser et Yoshi, sur quatre séries de quatre circuits de plus en plus difficiles. Les circuits de la Coupe Champignon sont caractérisés par de grandes courbes et des virages inclinés. C'est sur le Coupe Fleur que les choses commencent à se corser. Il vous faudra esquiver les camions qui déboulent sur Autoroute Toad et les rochers qui vous arrivent dessus des sommets embrumés de Montagne Choco ! Les circuits de la Coupe Étoile vont des pistes glacées de Sorbet-Land aux lacs de lave qui entourent le château de Bowser. Mais le véritable défi qui mettra vos talents de pilote à l'épreuve sera de terminer les quatre circuits de la Coupe Spéciale. Filez à travers les cavernes sombres et les collines boisées de Jungle DK, grimpez les pentes abruptes de Vallée Yoshi et foncez au-dessus du fantomatique Ponton Lugubre avant de vous attaquer à la course la plus longue du jeu : la Route arc-en-ciel et son circuit haut en couleur."
   },
   {
