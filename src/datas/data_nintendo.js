@@ -70,7 +70,7 @@ const nintendo_64 = [
     ref: "nintendo_64_3",
     category: "nintendo_64",
     name: "The Legend of Zelda Majora's Mask",
-    price: 9.99,
+    price: 39.99,
     image: "zelda_majoras_mask.jpg",
   }
 ];
@@ -93,7 +93,7 @@ const game_boy_color = [
     ref: "game_boy_color_3",
     category: "game_boy_color",
     name: "The Legend of Zelda Link's Awakening",
-    price: 9.99,
+    price: 29.99,
     image: "zelda_links_awakening.jpg"
   }
 ];

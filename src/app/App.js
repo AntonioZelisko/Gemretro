@@ -20,8 +20,10 @@ const App = () => {
   const [isFiltering, setFiltering] = useState(false);
   const [filtered, setFiltered] = useState(false);
 
+  const brands = nintendo.concat(sony);
+
   const filterResult = (input) => {
-    const fullList = nintendo.flat() + sony.flat(); //pas bon à corriger !!!
+    const fullList = brands.flat();
     const filtered = fullList.filter(
       (i) => i.name.toLowerCase().indexOf(input.toLowerCase()) > -1
     );
@@ -41,8 +43,7 @@ const App = () => {
             <Routes
               isFiltering={isFiltering}
               filtered={filtered}
-              nintendo={nintendo}
-              sony={sony}
+              brands={brands}
               category={category}
               setCategory={setCategory}
             />

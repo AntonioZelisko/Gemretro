@@ -7,8 +7,7 @@ import CheckoutPage from "./views/CheckoutPage";
 const Routes = ({
   isFiltering,
   filtered,
-  nintendo,
-  sony,
+  brands,
   category,
   setCategory,
 }) => {
@@ -19,17 +18,12 @@ const Routes = ({
         path="/"
         component={(props) => (
           <Menu
-            nintendo={
+            brands={
               isFiltering
                 ? filtered
-                : nintendo[
-                    nintendo.findIndex((d) => d[0].category === category)
+                : brands[
+                    brands.findIndex((d) => d[0].category === category)
                   ]
-            }
-            sony={
-              isFiltering
-                ? filtered
-                : sony[sony.findIndex((d) => d[0].category === category)]
             }
             changeCategory={setCategory}
             category={!isFiltering && category}

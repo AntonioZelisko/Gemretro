@@ -1,11 +1,11 @@
 import React from "react";
 import ListCardProduct from "../products/ListCardProduct";
 
-const Store = ({ category, nintendo, sony }) => {
+const Store = ({ category, brands }) => {
   return (
     <div className="col-sm">
       <div className="row">
-        <ListCardProduct category={category} nintendo={nintendo} sony={sony} />
+        <ListCardProduct category={category} brands={brands} />
       </div>
     </div>
   );
