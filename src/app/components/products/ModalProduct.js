@@ -34,7 +34,7 @@ const ModalProduct = ({ product }) => {
                                 <img
                                     width="auto"
                                     height="170"
-                                    src={ process.env.PUBLIC_URL + `/assets/${ product.category }/${ product.image }` }
+                                    src={ process.env.PUBLIC_URL + `/assets/${product.brand}/${ product.category }/${ product.image }` }
                                     alt={ product.name }
                                 />
                             </div>
