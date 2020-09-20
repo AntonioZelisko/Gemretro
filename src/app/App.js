@@ -5,6 +5,7 @@ import { useSelector, useDispatch } from "react-redux";
 import Header from "./components/header-footer/Header";
 import { nintendo } from "../datas/data_nintendo";
 import { sony } from "../datas/data_sony";
+import {microsoft} from '../datas/data_microsoft';
 import "./styles/App.css";
 import Footer from "./components/header-footer/Footer";
 import { saveCart } from "./lib/actions";
@@ -20,7 +21,7 @@ const App = () => {
   const [isFiltering, setFiltering] = useState(false);
   const [filtered, setFiltered] = useState(false);
 
-  const brands = nintendo.concat(sony);
+  const brands = nintendo.concat(sony).concat(microsoft);
 
   const filterResult = (input) => {
     const fullList = brands.flat();

@@ -16,9 +16,9 @@ const RowTableCart = ({ item }) => {
         <tr className="text-center">
             <td>
                 <img
-                    width="70"
+                    width="auto"
                     height="70"
-                    src={ process.env.PUBLIC_URL + `/assets/${ details.category }/${ details.image }` }
+                    src={ process.env.PUBLIC_URL + `/assets/${details.brand}/${ details.category }/${ details.image }` }
                     alt="citrons"
                 />
             </td>

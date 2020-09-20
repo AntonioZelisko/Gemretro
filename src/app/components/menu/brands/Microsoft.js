@@ -1,17 +1,14 @@
 import React from "react";
 
-const Sony = ({ changeCategory, category }) => {
+const Microsoft = ({ changeCategory, category }) => {
   const links = [
-    { name: "PlayStation", category: "playstation" },
-    { name: "PlayStation 2", category: "playstation_2" },
-    { name: "PSP", category: "psp" },
-    { name: "PlayStation 3", category: "playstation_3" },
-    { name: "PS Vita", category: "ps_vita" },
-    { name: "PlayStation 4", category: "playstation_4" }
+    { name: "Xbox", category: "xbox" },
+    { name: "Xbox 360", category: "xbox_360" },
+    { name: "Xbox One", category: "xbox_one" }
   ];
 
   return (
-    <div className="btn-group dropdown ">
+    <div className="btn-group dropdown">
       <button
         type="button"
         className="btn btn-secondary dropdown-toggle"
@@ -19,7 +16,7 @@ const Sony = ({ changeCategory, category }) => {
         aria-haspopup="true"
         aria-expanded="false"
       >
-        Sony
+        Microsoft
       </button>
       <div className="dropdown-menu">
         <ul>
@@ -37,4 +34,4 @@ const Sony = ({ changeCategory, category }) => {
     </div>
   );
 };
-export default Sony;
+export default Microsoft;

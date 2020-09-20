@@ -50,6 +50,32 @@ const playstation_2 = [
     image: "soulcalibur_2.jpg",
   },
 ];
+const psp = [
+  {
+    ref: "psp_1",
+    category: "psp",
+    name: "Naruto Shippunden Ultimate Ninja Impact",
+    brand:'sony',
+    price: 9.99,
+    image: "naruto_shippuden_un_impact.jpg",
+  },
+  {
+    ref: "psp_2",
+    category: "psp",
+    name: "Gran Turismo",
+    brand:'sony',
+    price: 7.99,
+    image: "gran_turismo.jpg",
+  },
+  {
+    ref: "psp_3",
+    category: "psp",
+    name: "Kingdom Hearts : Birth by Sleep",
+    brand:'sony',
+    price: 9.99,
+    image: "kingdom_hearts_bs.jpg",
+  },
+];
 const playstation_3 = [
   {
     ref: "playstation_3_1",
@@ -74,6 +100,32 @@ const playstation_3 = [
     brand:'sony',
     price: 24.99,
     image: "sonic_generations.jpg",
+  },
+];
+const ps_vita = [
+  {
+    ref: "ps_vita_1",
+    category: "ps_vita",
+    name: "Uncharted : Golden Abyss",
+    brand:'sony',
+    price: 9.99,
+    image: "uncharted_golden_abyss.jpg",
+  },
+  {
+    ref: "ps_vita_2",
+    category: "ps_vita",
+    name: "Gravity Rush",
+    brand:'sony',
+    price: 19.99,
+    image: "gravity_rush.jpg",
+  },
+  {
+    ref: "ps_vita_3",
+    category: "ps_vita",
+    name: "Wipeout 2048",
+    brand:'sony',
+    price: 9.99,
+    image: "wipeout_2048.jpg",
   },
 ];
 const playstation_4 = [
@@ -102,4 +154,4 @@ const playstation_4 = [
     image: "nier_automata.jpg",
   }
 ];
-export const sony = [playstation, playstation_2, playstation_3, playstation_4];
+export const sony = [playstation, playstation_2, psp, playstation_3, ps_vita, playstation_4];
