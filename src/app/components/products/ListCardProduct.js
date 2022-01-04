@@ -11,7 +11,7 @@ const ListCardProduct = ({ brands }) => {
             <CardProduct key={index} product={product} />
           ))
         ) : (
-          <i className="text-danger"></i>
+          <i className="text-danger">Page introuvable</i>
         )}
       </div>
     </div>

@@ -301,6 +301,12 @@ h4 {
   text-shadow: 0 0 10px #c2c1c1b0
 }
 
+span {
+  text-decoration: none;
+  color: white;
+  justify-self: center
+}
+
 @media screen and (max-width: 640px) {
   body {
     margin-top: 360px;

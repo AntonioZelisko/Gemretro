@@ -9,7 +9,7 @@ function getItemsFromStorage() {
     if(localStore === null || localStore === undefined) return [];
     else return JSON.parse(localStore);
 }
-
+console.log(localStorage)
 ///////////////////////
 //      ACTIONS      //
 ///////////////////////
